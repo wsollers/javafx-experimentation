@@ -9,14 +9,14 @@ Step 3. Set the PATH_TO_FX environment variable (Use the Search in Windows if yo
         export PATH_TO_FX=path/to/javafx-sdk-22.0.1/lib
         
 Step 4. Compile your code
-        * On Windows: \
-        * * javac --module-path %PATH_TO_FX% --add-modules javafx.controls,javafx.fxml HelloFX.java \
-        * * -or- \
-        * * On Linux: \
-        * * javac --module-path $PATH_TO_FX --add-modules javafx.controls,javafx.fxml HelloFX.java \
-        * * -or- \
-        * On Anything with Maven installed \
-        * * mvn clean javafx:run \
+          On Windows: \
+            javac --module-path %PATH_TO_FX% --add-modules javafx.controls,javafx.fxml HelloFX.java \
+            -or- \
+            On Linux: \
+            javac --module-path $PATH_TO_FX --add-modules javafx.controls,javafx.fxml HelloFX.java \
+            -or- \
+          On Anything with Maven installed \
+            mvn clean javafx:run \
         
 Step 4. Run your code
         java --module-path %PATH_TO_FX% --add-modules javafx.controls HelloFX \
